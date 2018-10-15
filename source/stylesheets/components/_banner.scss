@@ -1,0 +1,25 @@
+.banner {
+  color: white;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(1, 0, 0, 0.8);
+}
+
+.banner-content {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  margin-bottom: 30px;
+
+}

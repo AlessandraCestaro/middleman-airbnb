@@ -1,15 +1,26 @@
----
-title: Le Wagon - Middleman
----
+<%= partial "layouts/banner" %>
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<div class="container" style="text-align: center">
+
+  <h2 style="font-weight: bold font-size: 30px align-text: center">Recent Flats</h2>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4">
+        <%= partial "layouts/card" %>
+        <!-- insert <div class="card"> -->
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <%= partial "layouts/card" %>
+        <!-- insert <div class="card"> -->
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <%= partial "layouts/card" %>
+        <!-- insert <div class="card"> -->
+      </div>
+
+    </div>
   </div>
 </div>
+
